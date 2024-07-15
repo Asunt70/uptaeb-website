@@ -1,0 +1,75 @@
+.empty {
+    height: 50px;
+    background-color: var(--white-color);
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding: 0.5rem;
+}
+
+.footer {
+    background-color: var(--base-color);
+    width: 100%;
+
+}
+
+.content {
+    padding: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact, .legal, .footnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footnav {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.social a {
+    margin-right: 1em ;
+    width: 30px;
+    height: 30px;
+}
+
+.content a {
+    font-weight: 250;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content p, .content a {
+    margin-bottom: 1em;
+}
+
+.content p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px ) {
+
+    .content {
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,30 @@
+:root {
+  --base-color: hsl(210, 99%, 37%);
+  --complementary-color: hsl(30, 99%, 37%);
+  --analogous-color-1: hsl(220, 99%, 37%);
+  --analogous-color-2: hsl(200, 99%, 37%);
+  --white-color: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: black;
+  color: white;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
