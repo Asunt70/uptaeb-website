@@ -1,0 +1,59 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.section {
+    padding: 2rem;
+    display: flex;
+    opacity: 0;
+    width: 100%;
+}
+
+.section.transitionIn {
+    animation: transitionIn 1s ease-in;
+    opacity: 1;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.card { 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-right: 2rem;
+    border: 1px solid  hsl(10, 5%, 9%);
+    padding: 1rem;
+    border-radius: 5%;
+
+}
+
+.card img {
+    width: 320px;
+    height: 250px;
+    margin-top: 1rem;
+    border-radius: 2%;
+}
+
+.cardContent {
+    padding: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .section {
+        flex-direction: column;
+    }
+}

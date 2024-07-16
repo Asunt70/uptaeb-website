@@ -2,11 +2,13 @@
     display: flex;
     padding: 0.5rem;
     align-items: center;
-    background-color: black;
+    background-color: var(--base-color);
     justify-content: space-between;
     position: fixed;
     width: 100%;
     transition: top 0.3s ease-in;
+    box-shadow: 0 4px 8px rgba(1,94,188,0.1);
+    z-index: 999;
 }
 
 
@@ -18,11 +20,27 @@
 }
 
 .links a {
+    position: relative;
     margin-right: 1.5rem;
+    transition: color 0.3s;
+    padding: 5px;
 }
 
-.links a:hover {
-    text-decoration: solid underline var(--color-white);
+.links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+
+}
+
+
+.links a:hover::after {
+    width: 100%;
 }
 
 /* sidebar  */
