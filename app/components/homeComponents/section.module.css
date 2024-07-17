@@ -18,7 +18,7 @@
 }
 
 .section.transitionIn {
-    animation: transitionIn 1s ease-in;
+    animation: transitionIn 0.5s ease-in;
     opacity: 1;
 }
 

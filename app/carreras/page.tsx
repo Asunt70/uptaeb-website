@@ -1,7 +1,12 @@
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 export default function Carreras() {
     return(
-        <div>
-            <h1>Carreras</h1>
-            </div>
+        <>
+        <Navbar/>
+        <h1>Carreras</h1>
+        <br />
+        <Footer/>
+        </>
     )
 }
