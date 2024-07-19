@@ -1,0 +1,26 @@
+.bckContainer {
+    position: relative;
+    margin-top: 54px;
+    background: url("/subHeaderImg.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
+}
+
+.filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    backdrop-filter: brightness(0.5);
+}
+
+.content {
+    padding: 11rem 2rem;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.content h1 {
+    margin-bottom: 0.5rem;
+}
