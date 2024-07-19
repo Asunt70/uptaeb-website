@@ -49,18 +49,18 @@ export default function Navbar() {
                     <Link className={styles.hideOnMobile} href="/conocenos">Conócenos</Link>
                   
                 </div>
-                <a className={styles.hideOnDesktop} href="#" onClick={showSideBar}>
+                <button className={styles.hideOnDesktop} onClick={showSideBar}>
                         <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed">
                             <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
                         </svg>
-                    </a>
+                    </button>
             </div>
             <div className={`${styles.sidebar} ${sidebarVisible ? styles.visible : ''}`}>
-                <a href="#" onClick={hideSideBar}>
+                <button onClick={hideSideBar}>
                     <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28" fill="#e8eaed">
                         <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
                     </svg>
-                </a>
+                </button>
                 <div className={styles.linksSideBar}>
                     <Link href="/">Inicio</Link>
                     <Link href="/carreras">Carreras</Link>

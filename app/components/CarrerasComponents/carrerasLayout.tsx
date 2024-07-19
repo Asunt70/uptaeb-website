@@ -16,12 +16,19 @@ export default function CarrerasLayout(props: CarrerasLayoutProps) {
             <Navbar />
             <div className={styles.container}>
                 <div className={styles.subheader}>
-                    <div className={styles.filter}></div>
+                    <div className={styles.filter}>
                     <div className={styles.content}>
+                    <div className={styles.buttonContainer}>
+                        <a href="/carreras">
+                           <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+                           <p>Volver</p>
+                        </a>
+                    </div>
                     <h1>{props.heading}</h1>
                     </div>
+                    </div>
                 </div>
-                <section>
+                <section className={styles.carrera}>
                     <div className={styles.carreraInfo}>
                         <div className={styles.text}>
                             <h2>{props.heading}</h2>
@@ -32,7 +39,7 @@ export default function CarrerasLayout(props: CarrerasLayoutProps) {
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className={styles.masInfo}>
                     <div className={styles.egresadoInfo}>
                         <h3>Perfil del egresado</h3>
                         <ul>
