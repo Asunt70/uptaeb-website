@@ -30,6 +30,7 @@ export default function CarrerasLayout(props: CarrerasLayoutProps) {
                 </div>
                 <section className={styles.carrera}>
                     <div className={styles.carreraInfo}>
+                        
                         <div className={styles.text}>
                             <h2>{props.heading}</h2>
                             <p>{props.paragraph}</p>
@@ -38,7 +39,11 @@ export default function CarrerasLayout(props: CarrerasLayoutProps) {
                             <img src={props.src} alt={props.alt} />
                         </div>
                     </div>
+                    
                 </section>
+
+                <div className={`${styles.spacer} ${styles.layer1}`}></div>
+
                 <section className={styles.masInfo}>
                     <div className={styles.egresadoInfo}>
                         <h3>Perfil del egresado</h3>
@@ -49,7 +54,12 @@ export default function CarrerasLayout(props: CarrerasLayoutProps) {
                         </ul>
                     </div>
                     <div className={styles.pensum}>
-                        <button><a href="#">Pensum de estudio</a></button>
+                        <h3>Pensum de estudio</h3>
+                        <p>Descargar el pensum para mayor informacion y conocer las materias</p>
+                        <div className={styles.button}>
+                        <a href="#">Descargar Pensum</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </div>
                     </div>
                 </section>
             </div>
