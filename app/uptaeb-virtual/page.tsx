@@ -1,8 +1,9 @@
-
+import Login from '../components/UptaebVirtualComponents/login'
+import {SessionProvider} from "next-auth/react"
 export default function UptaebVirtual() {
     return (
         <>
-        <h1>Uptaeb Virtual</h1>
+        <Login/>
         </>
     );
 }

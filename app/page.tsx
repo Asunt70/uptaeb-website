@@ -4,7 +4,6 @@ import WelcomeSection from "./components/homeComponents/welcome-section";
 import Section from "./components/homeComponents/section";
 import UserExpSection from "./components/homeComponents/userExpSection";
 import FinalSection from "./components/homeComponents/finalSection";
-import styles from "./page.module.css"
 export default function Home() {
   return (
     <>
