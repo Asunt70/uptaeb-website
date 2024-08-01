@@ -1,5 +1,6 @@
 .container {
     padding: 2rem;
+    background-color: #1a1a1a;
 }
 
 .container h1 {
@@ -18,5 +19,5 @@
 .links a {
     background-color: var(--base-color);
     padding: 0.5rem;
-    border-radius: 10%;
+    border-radius: 5px;
 }

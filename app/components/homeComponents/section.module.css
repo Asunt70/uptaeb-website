@@ -11,7 +11,7 @@
 
 
 .section {
-    padding: 2rem;
+    padding: 4rem 2rem;
     display: flex;
     opacity: 0;
     width: 100%;
@@ -37,7 +37,7 @@
     margin-right: 2rem;
     border: 1px solid  hsl(10, 5%, 9%);
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 5px;
 
 }
 
@@ -45,15 +45,24 @@
     width: 320px;
     height: 250px;
     margin-top: 1rem;
-    border-radius: 2%;
+    border-radius: 2px;
 }
 
 .cardContent {
-    padding: 3rem;
+    padding: 0px 2rem;
+    float: right;
 }
 
-@media screen and (max-width: 800px) {
+.cardContent h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
     .section {
         flex-direction: column;
+    }
+    .card {
+        margin-top: 1rem;
     }
 }

@@ -1,6 +1,6 @@
 import styles from "./carrerasLayout.module.css";
-import Navbar from "../navbar";
-import Footer from "../footer";
+import Navbar from "../globalComponents/navbar";
+import Footer from "../globalComponents/footer";
 
 interface CarrerasLayoutProps {
     heading: string;

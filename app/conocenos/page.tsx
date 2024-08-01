@@ -1,5 +1,5 @@
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../components/globalComponents/navbar";
+import Footer from "../components/globalComponents/footer";
 
 export default function Conocenos() {
     return (

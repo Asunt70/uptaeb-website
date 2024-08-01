@@ -27,12 +27,12 @@ export default function Section(props: SectionProps) {
 
     return (
         <div id={props.id} ref={ref} className={`${styles.section} ${props.reverse ? styles.reverse : ''} ${inView ? styles.transitionIn:''}`}>
-            <div className={styles.card}>
-                <h1>{props.heading}</h1>
-                <img src={props.src} alt="" />
-            </div>
             <div className={styles.cardContent}>
+            <h1>{props.heading}</h1>
                 <p>{props.pContent}</p>
+            </div>
+            <div className={styles.card}>
+                <img src={props.src} alt="" />
             </div>
         </div>
     )
