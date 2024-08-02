@@ -16,7 +16,7 @@ export default function Footer() {
           
                 <div className={styles.contact}>
                         <p>Contacto</p>
-                        <a href='' target='_blank'>Ubícanos</a>
+                        <a href='https://maps.app.goo.gl/Hyqa9Ks33wtXZBrS9' target='_blank'>Ubícanos</a>
                         <a href="mailto:educacionmediadaticl@uptaeb.edu.ve">Correo Electrónico</a>
                         <div className={styles.social}>
                         <a id="facebook" href="https://www.facebook.com/uptdelara" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
@@ -33,8 +33,7 @@ export default function Footer() {
                     </div>
                     <div className={styles.legal}>
                         <p>Informacion Legal</p>
-                        <a href='#'>Legal</a>
-                        <a href='#'>Aviso de privacidad</a>
+                        <a href='/aviso-de-privacidad'>Aviso de privacidad</a>
                     </div>
                 </div>
                 <div className={styles.empty}>
