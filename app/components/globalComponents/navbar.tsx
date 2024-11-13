@@ -45,7 +45,6 @@ export default function Navbar() {
                 <div className={styles.links}>
                     <Link className={styles.hideOnMobile} href="/">Inicio</Link>
                     <Link className={styles.hideOnMobile} href="/carreras">Carreras</Link>
-                    <Link className={styles.hideOnMobile} href="/uptaeb-virtual">Uptaeb Virtual</Link>
                     <Link className={styles.hideOnMobile} href="/conocenos">Conócenos</Link>
                   
                 </div>
@@ -64,7 +63,6 @@ export default function Navbar() {
                 <div className={styles.linksSideBar}>
                     <Link href="/">Inicio</Link>
                     <Link href="/carreras">Carreras</Link>
-                    <Link href="/uptaeb-virtual">Uptaeb Virtual</Link>
                     <Link href="/conocenos">Conócenos</Link>
                 </div>
             </div>
