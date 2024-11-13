@@ -7,7 +7,7 @@ export default function WelcomeSection() {
         <div className={styles.section}>
             <div className={styles.container}>
                 <h1>UPTAEB</h1>
-                <p><b>"</b>La voz del pensamiento<b>"</b></p>
+                <p><span>&quot;</span>La voz del pensamiento<span>&quot;</span></p>
                 <div className={styles.downarrow}>
                     <a href="#section1"><FontAwesomeIcon icon={faArrowDown} className={styles.customIcon} /></a>
                 </div>

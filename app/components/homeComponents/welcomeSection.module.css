@@ -35,7 +35,7 @@
     color: var(--base-color);
 }
 
-.container b {
+.container span {
     color: var(--base-color);
 }
 
