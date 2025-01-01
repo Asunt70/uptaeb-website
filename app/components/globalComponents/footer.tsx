@@ -31,10 +31,6 @@ export default function Footer() {
                     <Link className={styles.hideOnMobile} href="/uptaeb-virtual">Uptaeb Virtual</Link>
                     <Link className={styles.hideOnMobile} href="/conocenos">Conócenos</Link>
                     </div>
-                    <div className={styles.legal}>
-                        <p>Informacion Legal</p>
-                        <a href='/aviso-de-privacidad'>Aviso de privacidad</a>
-                    </div>
                 </div>
                 <div className={styles.empty}>
                     <p>&copy; {year} UPTAEB. Todos los derechos reservados</p>

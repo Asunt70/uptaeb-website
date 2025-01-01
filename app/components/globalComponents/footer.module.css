@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-.contact, .legal, .footnav {
+.contact, .footnav {
     display: flex;
     flex-direction: column;
     justify-content: center;
